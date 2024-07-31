@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void) {
+    int a,b,c,x;
+    scanf("%d %d %d %d",&a,&b,&c,&x);
+    int cuboid=a*b*c;
+    int cube=pow(x,3);
+    if(cuboid>cube){
+        printf("Cuboid\n");
+    }
+    else if(cube>cuboid){
+        printf("Cube\n");
+    }
+    else{
+        printf("Equal\n");
+    }
+
+}
